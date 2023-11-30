@@ -12,7 +12,7 @@ def jfrogUpload():
     password = 'Admin@01'  # Replace 'your password' with in the actual password
 
     # send the PUT request with authentication and file upload
-    with open(file_path, 'rb') as file:
+    with open(file_path, 'r') as file:
         response = requests.put(url, auth=(username, password), data=file)
 
     # check the response status code
