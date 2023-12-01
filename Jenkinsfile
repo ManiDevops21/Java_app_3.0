@@ -78,7 +78,7 @@ pipeline{
        steps{
           script{
 
-              jarpush()
+              jarPush()
      
         }
      }
