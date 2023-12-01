@@ -78,7 +78,7 @@ pipeline{
        steps{
           script{
 
-              jfrogpush()
+              jarpush()
      
         }
      }
